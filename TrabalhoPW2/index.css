@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+form {
+    background: #fff;
+    max-width: 400px;
+    margin: 32px auto;
+    padding: 32px 24px 24px 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+input[type="number"], input[type="text"] {
+    padding: 10px 12px;
+    border: 1px solid #b3c6e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+input[type="number"]:focus, input[type="text"]:focus {
+    border: 1.5px solid #007bff;
+}
+
+button, .btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+button:hover, .btn:hover {
+    background: #0056b3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    width: 320px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background: #e3e3e3;
+}
+
+.card-body {
+    padding: 24px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 12px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.resultado, .nota_aluno {
+    background: #f1f8ff;
+    border-left: 5px solid #007bff;
+    padding: 18px 20px;
+    margin: 24px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #222;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    text-align: center;
+}
